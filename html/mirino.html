@@ -4,16 +4,32 @@
         <meta charset="UTF-8">
         <meta name="description" content="Oliverko Novosadko">
         <title>Mirino</title>
+        <link rel="stylesheet" href="styles.css"/>
     </head>
     <body>
-        <header>
-            <a href="index.html">&#10096;Home</a>
-            <a href="oliverko.html">Oliverko</a>
-            <a href="janko.html">Janko</a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <header style="position: fixed; top: 0px; background-color: whitesmoke;">
+            <h2 style="color: darkcyan;">Welcome</h2>
+            <table>
+                <tr>
+                    <td><a href="index.html" id="home" class="navigation">&#10096;Home</a></td>
+                    <td><a href="oliverko.html" id="oliverko" class="navigation">Oliverko Novosád</a></td>
+                    <td><a href="janko.html" id="janko" class="navigation">Janko</a></td>
+                </tr>
+            </table>
         </header>
         <hr>
         <main>
-            <iframe frameborder="0" src="https://www.vut.cz/" width="1000" height="500">VUT FIT &#60;3</iframe>
+            <div class="flex-container container">
+                <div style="align-items: flex-start;" class="box flex-item"><h1>1.</h1></div>
+                <div class="box2 flex-item"><h1>2.</h1></div>
+                <div class="box flex-item"><h1>3.</h1></div>
+                <div class="box2 flex-item"><h1>4.</h1></div>
+                <div class="box flex-item"><h1>5.</h1></div>
+            </div>
         </main>
     </body>
 </html>

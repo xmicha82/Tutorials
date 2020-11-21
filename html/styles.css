@@ -1,0 +1,48 @@
+.navigation {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 2px;
+}
+
+#janko {
+    color: crimson;
+}
+
+#mirino {
+    color: dodgerblue;
+}
+
+#oliverko {
+    color: darkorange;
+}
+
+#home {
+    color: darkgreen;
+}
+
+.container {
+    background-color: coral;
+    border: 10px solid black;
+}
+  
+.box{
+    background-color: lightblue;
+    padding: 5px 10px 10px 5px;
+    margin: 10px 20px 20px 10px;
+    width: 120px;
+    height: 120px;
+    box-shadow: 2px 2px 2px black;
+}
+  
+.box2{
+    background-color: lightblue;
+    padding: 5px 10px 10px 5px;
+    margin: 10px 20px 20px 10px;
+    width: 120px;
+    height: 80px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.flex-container{
+    display: flex;
+}
